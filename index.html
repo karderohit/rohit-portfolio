@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Rohit Karde | Full Stack .NET Developer</title>
+
+  <meta
+    name="description"
+    content="Full Stack .NET Developer specializing in ASP.NET Core, Angular, Azure and Microservices."
+  />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0B0F19;
+      color: white;
+      line-height: 1.7;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    section {
+      padding: 100px 0;
+    }
+
+    h1 {
+      font-size: 72px;
+      font-weight: 800;
+    }
+
+    h2 {
+      font-size: 42px;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    p {
+      color: #94A3B8;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero small {
+      color: #3B82F6;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: 30px auto;
+      font-size: 20px;
+    }
+
+    .buttons {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 16px 32px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn-primary {
+      background: #2563EB;
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: #1D4ED8;
+    }
+
+    .btn-secondary {
+      border: 1px solid #334155;
+      color: white;
+    }
+
+    .btn-secondary:hover {
+      border-color: white;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: #111827;
+      border: 1px solid #1E293B;
+      padding: 40px;
+      border-radius: 24px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: #2563EB;
+    }
+
+    .card h3 {
+      margin-bottom: 15px;
+    }
+
+    .experience {
+      background: #111827;
+    }
+
+    .timeline {
+      border-left: 2px solid #334155;
+      padding-left: 30px;
+    }
+
+    .timeline-item {
+      margin-bottom: 60px;
+    }
+
+    .timeline-item span {
+      color: #3B82F6;
+      font-weight: 600;
+    }
+
+    .timeline-item h3 {
+      margin-top: 10px;
+      font-size: 32px;
+    }
+
+    .timeline-item ul {
+      margin-top: 20px;
+      padding-left: 20px;
+      color: #CBD5E1;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 30px;
+    }
+
+    footer {
+      background: #111827;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    footer p {
+      margin-top: 20px;
+    }
+
+    @media(max-width:768px) {
+
+      h1 {
+        font-size: 48px;
+      }
+
+      h2 {
+        font-size: 32px;
+      }
+
+      .hero p {
+        font-size: 18px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <div class="container">
+
+      <small>Full Stack .NET Engineer</small>
+
+      <h1>Rohit Karde</h1>
+
+      <p>
+        Building scalable enterprise applications using
+        ASP.NET Core, Angular, React, Azure and
+        Microservices architecture.
+      </p>
+
+      <div class="buttons">
+
+        <a href="#projects" class="btn btn-primary">
+          View Projects
+        </a>
+
+        <a href="#" class="btn btn-secondary">
+          Download Resume
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SKILLS -->
+  <section>
+
+    <div class="container">
+
+      <h2>Tech Stack</h2>
+
+      <div class="skills-grid">
+
+        <div class="card">
+          <h3>.NET 8</h3>
+          <p>Scalable backend APIs and enterprise systems.</p>
+        </div>
+
+        <div class="card">
+          <h3>Angular 16</h3>
+          <p>Enterprise-grade SPAs with RxJS and modular architecture.</p>
+        </div>
+
+        <div class="card">
+          <h3>Azure</h3>
+          <p>Cloud deployment, CI/CD and DevOps pipelines.</p>
+        </div>
+
+        <div class="card">
+          <h3>Microservices</h3>
+          <p>Distributed scalable architecture for modern platforms.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience">
+
+    <div class="container">
+
+      <h2>Experience</h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+
+          <span>Aug 2022 — Feb 2026</span>
+
+          <h3>Full Stack .NET Developer</h3>
+
+          <p>Automonk Technologies</p>
+
+          <ul>
+            <li>Built scalable ASP.NET Core Microservices</li>
+            <li>Reduced API latency by 25%</li>
+            <li>Handled 10,000+ daily transactions</li>
+            <li>Built enterprise Angular applications</li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+
+    <div class="container">
+
+      <h2>Featured Projects</h2>
+
+      <div class="projects-grid">
+
+        <div class="card">
+
+          <h3>Enterprise Banking Portal</h3>
+
+          <p>
+            Multi-tenant banking platform handling
+            10,000+ transactions daily using
+            ASP.NET Core, Angular and Microservices.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>Healthcare Platform</h3>
+
+          <p>
+            Real-time telemedicine platform with
+            SignalR notifications and scalable backend APIs.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <footer>
+
+    <h2>Let's Connect</h2>
+
+    <p>
+      Open for remote Full Stack .NET opportunities.
+    </p>
+
+    <div class="buttons">
+
+      <a
+        href="mailto:karderohit09@gmail.com"
+        class="btn btn-primary"
+      >
+        Email Me
+      </a>
+
+      <a
+        href="https://linkedin.com/in/rohit-karde"
+        target="_blank"
+        class="btn btn-secondary"
+      >
+        LinkedIn
+      </a>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
