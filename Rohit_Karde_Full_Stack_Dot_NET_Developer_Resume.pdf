@@ -1,0 +1,320 @@
+\documentclass[10pt,a4paper]{article}
+
+%------------------------------------------------
+% PACKAGES
+%------------------------------------------------
+\usepackage[a4paper,top=0.42in,bottom=0.42in,left=0.55in,right=0.55in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+
+%------------------------------------------------
+% PAGE STYLE
+%------------------------------------------------
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+%------------------------------------------------
+% COLORS
+%------------------------------------------------
+\definecolor{headingcolor}{RGB}{35,35,35}
+
+%------------------------------------------------
+% SECTION FORMAT
+%------------------------------------------------
+\titleformat{\section}
+  {\large\bfseries\color{headingcolor}}
+  {}
+  {0pt}
+  {}
+  [\vspace{4pt}\titlerule]
+
+\titlespacing*{\section}
+  {0pt}{8pt}{5pt}
+
+%------------------------------------------------
+% CUSTOM COMMANDS
+%------------------------------------------------
+\newcommand{\resumeItem}[1]{
+  \item \small{#1}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{1pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+    \textbf{#1} & \textbf{#2} \\
+    \textit{\small #3} & \textit{\small #4} \\
+  \end{tabular*}
+  \vspace{3pt}
+}
+
+\newcommand{\projectHeading}[2]{
+  \vspace{2pt}
+  \textbf{#1} \hfill \textit{\small #2}
+  \vspace{1pt}
+}
+
+\newcommand{\skillLine}[2]{
+  \textbf{#1:} #2\\[2pt]
+}
+
+%------------------------------------------------
+% DOCUMENT
+%------------------------------------------------
+\begin{document}
+
+%================================================
+% HEADER
+%================================================
+\begin{center}
+  {\Huge\scshape\bfseries Rohit Karde}\\[4pt]
+  {\large\bfseries Full Stack .NET Developer}\\[3pt]
+  \small
+  Pune, India\ $\vert$\
+  \href{tel:+919529085991}{+91-9529085991}\ $\vert$\
+  \href{mailto:karderohit09@gmail.com}{karderohit09@gmail.com}\\[2pt]
+  \href{https://linkedin.com/in/rohit-karde}{linkedin.com/in/rohit-karde}\ $\vert$\
+  Remote Preferred\ $\vert$\
+  Last Working Day: 30 September 2026
+\end{center}
+
+%================================================
+% PROFESSIONAL SUMMARY
+%================================================
+\section{Professional Summary}
+
+Full Stack .NET Developer with 4 years of experience designing and delivering scalable backend services, secure REST APIs, and enterprise web applications across FinTech, HealthTech, Cybersecurity, and Logistics domains. Experienced in C\#, .NET 8/6, ASP.NET Core Web API, Microservices, Entity Framework Core, LINQ, SQL Server, JWT/RBAC, Clean Architecture, SOLID Principles, Angular, React.js, Azure, and Azure DevOps. Delivered production systems handling 10,000+ daily transactions and 500GB+ data, with a strong focus on performance, security, scalability, and maintainable code.
+
+%================================================
+% TECHNICAL SKILLS
+%================================================
+\section{Technical Skills}
+
+\skillLine{Core .NET}
+{C\#, .NET 8/6, ASP.NET Core Web API, REST APIs, Entity Framework Core, LINQ, Dependency Injection, Middleware, SignalR, Background Services}
+
+\skillLine{Architecture}
+{Microservices, Clean Architecture, SOLID Principles, Design Patterns, Domain-Driven Design, Multi-tenant Systems, Event-Driven Architecture}
+
+\skillLine{Security}
+{JWT Authentication, Refresh Token Rotation, Role-Based Access Control (RBAC), API Security, OAuth 2.0, Secure Coding}
+
+\skillLine{Databases}
+{SQL Server, T-SQL, Stored Procedures, Query Optimization, Database Design, MongoDB, Redis}
+
+\skillLine{Cloud \& DevOps}
+{Microsoft Azure, Azure DevOps, CI/CD Pipelines, Docker, Git, GitHub}
+
+\skillLine{Frontend}
+{Angular 15/16, TypeScript, RxJS, Angular Material, React.js, Redux, JavaScript, HTML5, CSS3}
+
+\skillLine{Testing}
+{Unit Testing, Integration Testing, REST API Testing, Postman}
+
+\skillLine{Methodologies}
+{Agile, Scrum, Code Review, Remote Collaboration}
+
+%================================================
+% PROFESSIONAL EXPERIENCE
+%================================================
+\section{Professional Experience}
+
+%------------------------------------------------
+% INTERNSHIP
+%------------------------------------------------
+\resumeSubheading
+{Intern Software Developer}
+{Aug 2022 -- Feb 2023}
+{Automonk Technologies, Pune, India}
+{Remote / Hybrid}
+
+\begin{itemize}[
+  leftmargin=0.18in,
+  itemsep=1pt,
+  topsep=2pt,
+  parsep=0pt,
+  partopsep=0pt
+]
+
+\resumeItem{Assisted in developing web applications using C\#, ASP.NET Core, Web API, Angular, and SQL Server.}
+
+\resumeItem{Worked on REST API development, database queries, bug fixing, and integration of frontend components with backend services.}
+
+\resumeItem{Gained hands-on experience with Entity Framework Core, LINQ, Git, Agile development, and code review practices.}
+
+\resumeItem{Collaborated with senior developers to understand application architecture, development workflows, testing, and deployment processes.}
+
+\end{itemize}
+
+%------------------------------------------------
+% FULL STACK DEVELOPER
+%------------------------------------------------
+\resumeSubheading
+{Full Stack .NET Developer}
+{Mar 2023 -- Sep 2026}
+{Automonk Technologies, Pune, India}
+{Remote / Hybrid}
+
+\begin{itemize}[
+  leftmargin=0.18in,
+  itemsep=1pt,
+  topsep=2pt,
+  parsep=0pt,
+  partopsep=0pt
+]
+
+\resumeItem{Engineered high-performance ASP.NET Core 8 REST APIs using C\#, LINQ, and SQL stored procedures, reducing production API response latency by 25\%.}
+
+\resumeItem{Designed and implemented Microservices for claims, payments, inventory, and security modules, reducing manual data processing by 30\%.}
+
+\resumeItem{Built secure multi-tenant backend services processing 10,000+ daily financial transactions using JWT authentication, refresh token rotation, and RBAC.}
+
+\resumeItem{Optimized ASP.NET Core data-access layers and SQL queries to support 500GB+ patient data in a HealthTech platform.}
+
+\resumeItem{Implemented SignalR services for real-time notifications, live dashboards, appointment updates, and event-driven communication.}
+
+\resumeItem{Applied Clean Architecture and SOLID Principles to create maintainable, testable, and loosely coupled backend services.}
+
+\resumeItem{Integrated ASP.NET Core APIs with Angular 15/16 applications using TypeScript, RxJS, Route Guards, and HTTP Interceptors.}
+
+\resumeItem{Built reusable Angular components and React.js dashboards consuming REST and SignalR services, reducing frontend delivery effort by 15\%.}
+
+\resumeItem{Designed and maintained Azure DevOps CI/CD pipelines for automated build, test, and deployment stages, improving deployment success rate by 15\%.}
+
+\resumeItem{Collaborated in Agile/Scrum teams through sprint delivery, code reviews, testing, deployment, and remote cross-functional coordination.}
+
+\end{itemize}
+
+%================================================
+% KEY PROJECTS
+%================================================
+\section{Key Projects}
+
+%------------------------------------------------
+\projectHeading
+{Supply Chain \& Logistics System}
+{2022 -- 2023}
+
+\textit{\small C\# | .NET 8 | Microservices | REST APIs | SQL Server | Azure | React.js}
+
+\begin{itemize}[
+  leftmargin=0.18in,
+  itemsep=1pt,
+  topsep=2pt,
+  parsep=0pt
+]
+
+\resumeItem{Designed .NET 8 Microservices and data-processing pipelines for real-time inventory tracking, improving operational efficiency by 25\%.}
+
+\resumeItem{Delivered REST API integrations for live inventory updates, alerts, and status feeds consumed by a React.js tracking dashboard.}
+
+\end{itemize}
+
+%------------------------------------------------
+\projectHeading
+{Healthcare Management Platform}
+{2023 -- 2024}
+
+\textit{\small C\# | ASP.NET Core Web API | SQL Server | SignalR | Azure | Angular 15/16 | React.js}
+
+\begin{itemize}[
+  leftmargin=0.18in,
+  itemsep=1pt,
+  topsep=2pt,
+  parsep=0pt
+]
+
+\resumeItem{Built backend APIs for appointment scheduling, digital prescriptions, and patient record management supporting 500GB+ of patient data.}
+
+\resumeItem{Optimized Web API and SQL Server data access and implemented SignalR notifications for appointment confirmations and prescription alerts.}
+
+\end{itemize}
+
+%------------------------------------------------
+\projectHeading
+{Cybersecurity Threat Monitoring \& Audit Platform}
+{2023 -- 2024}
+
+\textit{\small C\# | .NET 8 | ASP.NET Core Web API | SignalR | JWT/RBAC | SQL Server | Azure DevOps | Angular}
+
+\begin{itemize}[
+  leftmargin=0.18in,
+  itemsep=1pt,
+  topsep=2pt,
+  parsep=0pt
+]
+
+\resumeItem{Developed real-time threat monitoring using ASP.NET Core Web API and SignalR for suspicious API activity and authentication events.}
+
+\resumeItem{Implemented centralized audit logging, RBAC, JWT authentication, and an Angular dashboard for live security event monitoring.}
+
+\end{itemize}
+
+%------------------------------------------------
+\projectHeading
+{Enterprise Banking \& Insurance Portal}
+{2024 -- 2026}
+
+\textit{\small C\# | .NET Core | ASP.NET Core Microservices | EF Core | JWT/RBAC | SQL Server | Azure | Angular}
+
+\begin{itemize}[
+  leftmargin=0.18in,
+  itemsep=1pt,
+  topsep=2pt,
+  parsep=0pt
+]
+
+\resumeItem{Designed and delivered a secure multi-tenant ASP.NET Core Microservices backend processing 10,000+ daily financial transactions.}
+
+\resumeItem{Implemented JWT authentication, refresh token rotation, RBAC, optimized SQL stored procedures, and Angular-based transaction workflows.}
+
+\end{itemize}
+
+%================================================
+% CERTIFICATION
+%================================================
+\section{Certification}
+
+\textbf{Full Stack Developer Course}\\
+\textit{Fortune Cloud Technologies} \hfill \textit{March 2022 -- August 2022}
+
+\begin{itemize}[
+  leftmargin=0.18in,
+  itemsep=1pt,
+  topsep=1pt,
+  parsep=0pt
+]
+
+\resumeItem{Completed practical training in Full Stack Development with a focus on .NET technologies, web development, databases, and application development.}
+
+\end{itemize}
+
+%================================================
+% EDUCATION
+%================================================
+\section{Education}
+
+\textbf{Bachelor of Science (B.Sc.) in Chemistry}
+\hfill \textit{2022}\\
+Shivaji University, Maharashtra
+
+%================================================
+% ADDITIONAL INFORMATION
+%================================================
+\section{Additional Information}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Work Authorisation}\hspace{0.2cm}: Indian Citizen $\vert$ Authorised to work in India and the US\\[2pt]
+\textbf{Availability}\hspace{1.35cm}: Immediate Joiner $\vert$ Last Working Day: 30 September 2026\\[2pt]
+\textbf{Work Mode}\hspace{1.2cm}: Remote Preferred $\vert$ Open to Hybrid / On-site\\[2pt]
+\textbf{Languages}\hspace{1.2cm}: English (Expert) $\vert$ Hindi (Expert) $\vert$ Marathi (Native)\\[2pt]
+\textbf{Portfolio}\hspace{1.55cm}: \href{https://karderohit.github.io/rohit-portfolio}{karderohit.github.io/rohit-portfolio}
+}}
+\end{itemize}
+\end{document}
